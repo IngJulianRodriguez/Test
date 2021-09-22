@@ -1,2 +1,2 @@
 master
-master \n branch2
+linea 2
