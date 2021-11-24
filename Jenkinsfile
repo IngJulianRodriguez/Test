@@ -10,17 +10,17 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                sh 'echo "Hello World"'
+                echo "Hello World1"
             }
         }
         stage('Test') {
             steps {
-                sh 'echo "Hello World"'
+                echo "Hello World2"
             }
         }
         stage('Deploy') {
             steps {
-                sh 'echo "Hello World"'
+                echo "Hello World3"
             }
         }
     }
