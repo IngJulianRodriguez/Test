@@ -18,7 +18,7 @@ pipeline {
         stage('Test') {
             steps {
                 script {                   
-                    echo "Hello World2"                
+                    echo "Hello $BRANCH_NAME"                
                 }
             }
         }
