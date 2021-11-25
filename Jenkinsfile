@@ -11,21 +11,21 @@ pipeline {
         stage('Build') {
             steps {
                 script {                   
-                    echo "Hello World1"                
+                    echo "Build on branch $BRANCH_NAME"                
                 }
             }
         }
         stage('Test') {
             steps {
                 script {                   
-                    echo "Hello $BRANCH_NAME"                
+                    echo "Test on branch $BRANCH_NAME"                
                 }
             }
         }
         stage('Deploy') {
             steps {
                 script {                   
-                    echo "Hello World3"                
+                    echo "Deploy on branch $BRANCH_NAME"                
                 }
             }
         }
