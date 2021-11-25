@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+	<!-- Datos para conectarse a la Azure -->
+	<azure>
+		<connectionString>DefaultEndpointsProtocol=https;AccountName=evachef;AccountKey=9TKtp9Sj/uhxvGQyznZsjKSefgQfjLCb/q0G1a6qj/lGbiUnWT4YslmAJyTqUPADecinqUT49/bZbWfJnaQ+Bg==</connectionString>
+		<blob>logs</blob>
+		<!--<folder>EvaClient</folder>-->
+		<folder>EvaPosLogBBI</folder>
+	</azure>
+</configuration>
