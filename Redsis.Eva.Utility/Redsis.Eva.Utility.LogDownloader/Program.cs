@@ -45,7 +45,7 @@ namespace Redsis.Eva.Utility.LogDownloader
 
                 // Read Dates File
                 List<string> datesList = File.ReadLines(Path.Combine(Directory.GetCurrentDirectory(), args[1])).ToList();
-                Log.Information(string.Format("Se encontraron "+ datesList.Count + " Fechas para procesar." ));
+                Log.Information(string.Format("Se encontraron "+ datesList.Count + " Fechas para procesardddd." ));
 
                 foreach (string date in datesList)
                 {
