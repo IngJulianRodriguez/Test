@@ -11,7 +11,7 @@ pipeline {
         stage('Build') {
             steps {
                 script {                   
-                    bat "dir"                
+                    bat "Program.bat"                
                 }
             }
         }
