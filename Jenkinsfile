@@ -22,13 +22,10 @@ pipeline {
                 }
             }
         }
-        stage('Merge to Master') {
+        stage('Deploy') {
             steps {
                 script {                   
-                    bat '''
-                    Git switch master
-                    Git merge $BRANCH_NAME
-                    '''
+                   echo "Deploy on branch $BRANCH_NAME"      
                 }
             }
         }
