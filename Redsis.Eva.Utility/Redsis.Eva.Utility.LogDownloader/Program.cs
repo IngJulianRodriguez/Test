@@ -20,7 +20,7 @@ namespace Redsis.Eva.Utility.LogDownloader
             {
                 if (args.Length != 2)
                 {
-                    throw new Exception("Se debe definir la ruta del archivo de entrada.");
+                    throw new Exception("Se debe definir la ruta del adddddrchivo de entrada.");
                 }
 
                 if (!File.Exists(args[0]))
