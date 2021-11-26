@@ -11,7 +11,7 @@ pipeline {
         stage('Build') {
             steps {
                 script {                   
-                    echo "Build on branch $BRANCH_NAME"                
+                    bat "dir"                
                 }
             }
         }
