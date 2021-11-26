@@ -25,7 +25,7 @@ pipeline {
         stage('Deploy') {
             steps {
                 script {                   
-                    echo "Deploy on branch $BRANCH_NAME"                
+                    echo "Git merge master"                
                 }
             }
         }
